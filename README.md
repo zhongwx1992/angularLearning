@@ -6,6 +6,9 @@
 * [angular官方文档][https://angular.cn/start]
 * [angular工作区和项目文件夹结构][https://angular.cn/guide/file-structure]
 * [angularHero][https://angular.cn/tutorial]
+  * 每个初学者最好都完成一下hero入门
+* [angular词汇表][https://angular.cn/guide/glossary]
+
 
 前置内容：
 * HTML
@@ -30,5 +33,10 @@
 在当前项目下安装依赖：[对现有项目]
 * `npm install`
 
-Angular CLI:
+Angular CLI:[CLI命令与参考手册][https://angular.cn/cli]
 * 新建一个angular项目 `ng new my-app`  
+* 开启服务`ng serve --open`
+* 创建新组件 `ng generate component heroes`
+
+# 未来可能会用到的笔记
+* src/styles.css：全应用css文件
