@@ -17,9 +17,27 @@ CLI 自动生成了三个元数据属性：
 
 3. 创建类并进行引用 [链接][https://angular.cn/tutorial/toh-pt1#create-a-hero-class]
   类的引用：在需要对应类的地方直接 import
-  
+
+4. 管道[https://angular.cn/guide/pipes]
+管道是格式化字符串、金额、日期和其它显示数据的好办法。Angular 发布了一些内置管道，而且你还可以创建自己的管道。
+
+5. 各种绑定
+`()` 事件绑定
+`[]` 属性绑定
+
+
+6. 生成服务 `ng generate service hero`
+@Injectable() 装饰器会接受该服务的元数据对象，就像 @Component() 对组件类的作用一样。
 
 
 
 
+深度学习资料：
+
+1. tf的网络课程资料，小到莫凡python的tensorflow：https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/，
+2. 然后到用jupyter的teacher github：https://github.com/sjchoi86/Tensorflow-101，
+
+3. 斯坦福的tf课程：https://web.stanford.edu/class/cs20si/，
+
+4. 优达学成的的tf（免费）：https://cn.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187
 
