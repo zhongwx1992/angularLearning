@@ -21,7 +21,6 @@ export class HeroService {
   ) { }
 
   private heroesUrl = 'api/heroes';  // URL to web api
-
   /** Log a HeroService message with the MessageService */
   private log(message: string) {
     this.messageService.add(`HeroService: ${message}`);

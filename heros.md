@@ -29,6 +29,19 @@ CLI 自动生成了三个元数据属性：
 6. 生成服务 `ng generate service hero`
 @Injectable() 装饰器会接受该服务的元数据对象，就像 @Component() 对组件类的作用一样。
 
+7. angular 内置指令
+* [内置属性型指令][https://angular.cn/guide/template-syntax#attribute-directives]
+* [内置结构型指令][https://angular.cn/guide/template-syntax#structural-directives]
+  * ngIf
+  * ngForOf
+  * NgSwitch
+
+8. 用户行为事件
+  * click 是用户点击事件
+  * keyup 是用户敲击事件，当用户敲击键盘的时候就会被捕获 `(keyup)="onKey($event)`
+    所有标准 DOM 事件对象都有一个 target 属性， 引用触发该事件的元素。 在本例中，target 是<input> 元素， event.target.value 返回该元素的当前内容。
+  
+
 
 
 
