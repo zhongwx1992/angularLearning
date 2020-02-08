@@ -42,15 +42,8 @@ CLI 自动生成了三个元数据属性：
     所有标准 DOM 事件对象都有一个 target 属性， 引用触发该事件的元素。 在本例中，target 是<input> 元素， event.target.value 返回该元素的当前内容。
   
 
-
-
-
 深度学习资料：
-
 1. tf的网络课程资料，小到莫凡python的tensorflow：https://morvanzhou.github.io/tutorials/machine-learning/tensorflow/，
 2. 然后到用jupyter的teacher github：https://github.com/sjchoi86/Tensorflow-101，
-
 3. 斯坦福的tf课程：https://web.stanford.edu/class/cs20si/，
-
 4. 优达学成的的tf（免费）：https://cn.udacity.com/course/intro-to-tensorflow-for-deep-learning--ud187
-

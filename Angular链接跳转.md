@@ -1,4 +1,4 @@
-Angular Route link 跳转实现
+# Angular Route link 跳转实现
 
 参考资料：https://alligator.io/angular/query-parameters/
 
@@ -58,7 +58,21 @@ Angular Route link 跳转实现
 
 
 
+# 参数获取方式
 
+
+
+```typescript
+  navigatorParams = this.route.snapshot.params;
+  routerParams = this.route.snapshot.queryParams; 	
+	
+	get dashboardName() {
+    return this.route.snapshot.params['name'];
+  }
+  get dashboardId() {
+    return this.route.snapshot.params['id'];
+  }
+```
 
 
 
